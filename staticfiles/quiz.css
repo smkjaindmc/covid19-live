@@ -1,0 +1,90 @@
+body{
+    background-image: url('/static/why.jpg');
+}
+h1{
+    font-size: 3.5em;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+.pop{
+    background-color: wheat;
+    height: 60px;
+    width: 600px;
+    padding-top: 2px;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-left: 250px;
+    margin-top: 80px;
+}
+h2{
+    margin-top: 5px;
+    
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background: #2c3e50;
+    background-image: none;
+  }
+  /* Remove IE arrow */
+  select::-ms-expand {
+    display: none;
+  }
+  /* Custom Select */
+  .select {
+    position: relative;
+    display: flex;
+    width: 20em;
+    height: 3em;
+    line-height: 3;
+    background: #2c3e50;
+    overflow: hidden;
+    border-radius: .25em;
+  }
+  select {
+    flex: 1;
+    padding: 0 .5em;
+    color: #fff;
+    cursor: pointer;
+  }
+  /* Arrow */
+  .select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    background: #34495e;
+    cursor: pointer;
+    pointer-events: none;
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+  }
+  /* Transition */
+  .select:hover::after {
+    color: #f39c12;
+  }
+
+  .joy{
+      margin-left: 950px;
+      margin-top: -50px;
+  }
+  button{
+      margin-top: 60px;
+      margin-left: 680px;
+      margin-bottom: 50px;
+      background-color: rgb(15,112,206);
+      padding: 10px;
+      border-radius: 5px;
+      font-size: 1.2em;
+      color: white;
+      cursor: pointer;
+  }

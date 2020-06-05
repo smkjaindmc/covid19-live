@@ -1,0 +1,42 @@
+body{
+    background-image: url('/static/you.jpg');
+}
+
+
+a:link{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+a:hover 
+{
+    
+    color: wheat;
+}
+
+
+h1{
+    margin-top: 30px;
+    margin-left: 25px;
+    color: wheat;
+    font-size: 3em;
+}
+.goy{
+    font-size: large;
+    padding-top: 10px;;
+    width: 415px;
+    text-align: center;
+    background-color: wheat;
+    height: 120px;
+    margin-top: 60px;
+    height: 80px;
+    border-radius: 5px;
+    margin-left: 25px;
+    opacity: 0.7;
+    }
+
+.goy:hover{
+    background-color: rgb(15,112,206);
+    text-decoration-color: wheat;
+}

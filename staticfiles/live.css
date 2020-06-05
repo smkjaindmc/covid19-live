@@ -1,0 +1,78 @@
+body{
+    background-image: url('/static/bot.jpg');   
+}
+.hea{
+    color: antiquewhite;
+    font-size: 4.5em;
+    text-align: center;
+    background-color: black;
+    width: 900px;
+    margin-left: 290px;
+    margin-top: 20px;
+}
+h1{
+    padding-top: 40px;
+}
+.b1{
+
+   color: rgb(0,44,86);
+   text-align: center;
+   background-color: rgb(173,210,254);
+   width: 200px;
+   height: 150px;
+   opacity: 0.7;
+   border-radius: 8px;
+   /*margin-left: 200px;*/
+}
+.b2{
+    color:rgb(1,91,37);
+    text-align: center;
+    background-color:rgb(167,236,148);
+    
+    width: 200px;
+    height: 150px;
+    opacity: 0.7;
+    border-radius: 8px; 
+   /* margin-left: 500px;
+    margin-top: -170px; */
+}
+.b3{
+    color:rgb(90,5,2);
+    text-align: center;
+    background-color:rgb(255,139,138);
+    width: 200px;
+    height: 150px;
+    opacity: 0.7;
+    border-radius: 8px; 
+    /*margin-left: 800px;
+    margin-top: -170px;*/
+}
+.b4{
+    color:rgb(88,39,0);
+    text-align: center;
+    background-color:rgb(250,177,124);
+    width: 200px;
+    height: 150px;
+    opacity: 0.7;
+    border-radius: 8px; 
+ /*  margin-left: 1100px;
+    margin-top: -170px;*/
+}
+.boy{
+    margin-top: 500px;;
+}
+.cat{
+    margin-top: 80px;
+}
+table{
+    margin-top: 50px;
+    display: none;
+}
+.goa{
+    margin-left: 280px;
+    width:900px;
+}
+.call{
+    margin-left: 600px;
+    margin-top: 100px;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/quiz.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <h1>COVID-19 Self Checker</h1>
+    <div class="pop">
+        <h2>Q1).   Are you ill or caring for someone who is ill ?</h2>
+       </div>
+       <div class="select joy">
+        <select name="slct" id="slct">
+          <option selected disabled>Choose an option</option>
+          <option value="1">Yes</option>
+          <option value="2">No</option>
+        </select>
+      </div>
+      <div class="pop">
+        <h2>Q2).   Are you answering for yourself or someone else ?</h2>
+       </div>
+       <div class="select joy">
+        <select name="slct" id="slct">
+          <option selected disabled>Choose an option</option>
+          <option value="1">Myself</option>
+          <option value="2">Someone else</option>
+        </select>
+      </div>
+      <div class="pop">
+        <h2>Q3).   In the last two weeks, did you care for or have close contact with someone diagnosed with COVID 19 ?</h2>
+       </div>
+       <div class="select joy">
+        <select name="slct" id="slct">
+          <option selected disabled>Choose an option</option>
+          <option value="1">Yes</option>
+          <option value="2">No</option>
+         
+        </select>
+      </div>
+      <div class="pop">
+        <h2>Q4).   Do you live in a long-term care facility or nursing home ?</h2>
+       </div>
+       <div class="select joy">
+        <select name="slct" id="slct">
+          <option selected disabled>Choose an option</option>
+          <option value="1">Yes</option>
+          <option value="2">No</option>
+        </select>
+      </div>
+      <div class="pop">
+        <h2>Q4).   Do you have any of the following life-threatening symptoms ?</h2>
+       </div>
+       <div class="select joy">
+        <select name="slct" id="slct">
+          <option selected disabled>Choose an option</option>
+          <option value="1">Not experiencing</option>
+          <option value="2">Acting confused</option>
+          <option value="3">Slurred speech</option>
+          <option value="2">Unconscious</option>
+        </select>
+      </div>
+      <button type="button" class="btn btn-primary"><a href="{% url 'final' %}">Submit</a></button>
+</body>
+</html>
