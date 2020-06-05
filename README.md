@@ -6,5 +6,3 @@ BeautifulSoup (web scrapping),
 Pyler (python package for notifications),
 Django (python web framework)
 
-# Link of project video:- 
-https://drive.google.com/file/d/1aA9qjL9gQlLZVUIinnh2eHaQ0-Zvpfl1/view?usp=sharing
