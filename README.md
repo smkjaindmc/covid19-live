@@ -8,3 +8,6 @@ Django (python web framework),
 Chart.js (for making charts),
 Mapbox
 
+# Document for Hack on Azure Hackathon
+
+https://docs.google.com/document/d/1r3gYxkq6HRMWqtEx97Xjaqc8dKBsW7m-cqkUECcCF2U/edit?usp=sharing
